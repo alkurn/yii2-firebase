@@ -1,0 +1,27 @@
+{
+  "name": "alkurn/yii2-firebase",
+  "description": "Yii2 helper for creating and upload file or files",
+  "keywords": [ "yii2", "yii2-components", "firebase","php7"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://gitlab.com/alkurn/yii2-firebase/issue",
+    "source": "https://gitlab.com/alkurn/yii2-firebase"
+  },
+  "authors": [
+    {
+      "name": "Ganesh",
+      "email": "gmankar@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "*",
+    "kreait/firebase-php": "^4.18"
+  },
+  "autoload": {
+    "psr-4": {
+      "alkurn\\firebase\\": ""
+    }
+  }
+}
