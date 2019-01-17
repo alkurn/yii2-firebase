@@ -101,7 +101,7 @@ class Firebase extends Component
      * @param string $path
      * @return Reference
      */
-    public function getReference(string $path = ''): Reference
+    public function getReference(string $path = null): Reference
     {
         return $this->getDatabase()->getReference($path);
     }
